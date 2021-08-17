@@ -1,6 +1,6 @@
 var nome = 'Fellipe';              //  (DECLARAÇÃO DE VARIÁVEL DE ESCOPO GLOBAL)
 let  idade = 26;                   //  (DECLARAÇÃO DE VARIÁVEL DE ESCOPO LOCAL)
-const profissao = 'Op. Aereo';     //  (DECLARAÇÃO DE CONSTANTE **CONST NÃO VARIA**)
+const profissao = 'Op. Aereo';     //  (DECLARAÇÃO DE CONSTANTE ***CONST NÃO VARIA***)
 const mostrarSite = true;
 const site = 'https://blueedtech.com.br/'
 
