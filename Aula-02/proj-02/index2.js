@@ -1,9 +1,9 @@
 const express = require('express');
 const app = express();
 
-const port = 3500;           // Selecionar a porta padrão.
+const port = 3500;          // Selecionar a porta padrão
 
-const games = [             // Lista com os Games cadastrados.
+const games = [             // Lista com os Games.
     'Counter-Strike: Global Offensive',
     'Arma 3',
     'Battlefield 01',
@@ -20,11 +20,11 @@ app.get('/games', (req, res) => {
 })
 
 // ROTA para exiber e buscar apenas o ID de cada games.
-app.get('filmes/id/', (req, res) => {
+app.get('/games/:id', (req,res) => {
     const id = req.params.id - 1;
     const gameSelecionado = games[id]
     res.send(gameSelecionado);
-})
+});
 
 // Abre o Servidor pela porta definida na CONST definida na linha 4 acima.
 app.listen(port, () => {
