@@ -5,16 +5,16 @@ const port = 3000;
 
 const games = [
     'GTA San Andreas',
-    'Need For Speed Underground 2',
-    'Combat Arms',
-    'The Sims',
-    'MTA San Andreas',
-    'Euro Truck Simulator 2',
-    'CSGO'
+    ' Need For Speed Underground 2',
+    ' Combat Arms',
+    ' The Sims',
+    ' MTA San Andreas',
+    ' Euro Truck Simulator 2',
+    ' CSGO'
 ];
 
 const msg = [
-    'Bem-Vindo ao TOP 3 Jogos FPS',
+    'Bem-Vindo ao TOP 3 Jogos FPS' ,
     'Olá amigos, bem-vindo ao servidor de jogos.',
     'Servidor de jogos para Computador',
     'Este é meu servidor de Jogos',
@@ -42,7 +42,7 @@ app.get('/', (req, res) => {
 
 // ROTA para a página games, mostrando a lista de GAMES.
 app.get('/games', (req, res) => {
-    res.send(games);
+    res.send(`<h2>${games}</h2>`);
 });
 
 // ROTA para buscar o game pelo ID.
@@ -50,9 +50,9 @@ app.get('/games/:id', (req, res) => {
     const id = req.params.id;
     const game = games[id -1];
     if (id > games.length || id < 1){
-        res.send("ID Inválido.");
+        res.send(`<h1>ID Inválido.</h1>`);
     }else {
-        res.send(game);
+        res.send(`<h2>${game}</h2>`);
     }
 });
 
