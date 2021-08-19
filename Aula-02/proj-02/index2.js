@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 
 const port = 3500;          // Selecionar a porta padrão
-
 const games = [             // Lista com os Games.
     'Counter-Strike: Global Offensive',
     'Arma 3',
