@@ -2,7 +2,6 @@ const express = require('express');
 const app = express();
 
 const port = 3000;
-
 app.use(express.json());       // Definir para as REQS do Express utilizarem JSON.
 
 const filmes = [
@@ -92,7 +91,7 @@ app.delete('/filmes/:id', (req, res) => {
     res.send("Filme excluido com sucesso");
 });
 
-// ROTA pra setar como padrão a porta + inf. do console.log.
+// ROTA setada padrão a porta + inf. do console.log.
 app.listen(port, () => {
     console.info(`App esta rodando em: http://localhost:${port}/`);
 });
