@@ -3,6 +3,8 @@ const app = express();
 
 const port = 3000;
 
+app.use(express.json());       // Definir para as REQS do Express utilizarem JSON.
+
 const games = [
     'GTA San Andreas',
     ' Need For Speed Underground 2',
