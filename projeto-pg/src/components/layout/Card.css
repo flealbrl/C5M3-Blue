@@ -1,0 +1,75 @@
+*{
+    font-family: Oswald;
+    background-color: deepskyblue;
+}
+
+.Card{
+    margin: 20px;
+    border: 3px solid #000;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #fff;
+}
+
+.Card h3, p, a{
+    background: #fff;
+    text-align: center;
+    font-size: 2rem;
+}
+
+
+
+.Footer{
+    margin-top: 2rem;
+}
+
+.Card .Content{
+    color: #000;
+    padding: 15px 0px;
+    background-color: #fff;
+}
+
+.Card .Footer{
+    background-color: black;
+    color: #fff;
+    padding: 5px 0px;
+}
+
+img{
+    display: block;
+    margin: auto;
+    margin-bottom: 2rem;
+}
+
+iframe{
+    margin: 2rem;
+}
+
+img, iframe{
+    border: 2px solid #000;
+    border-radius: .6rem;
+}
+
+.Card button{
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 8px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.Card button:hover {
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.24), 0 12px 15px 0 rgba(0,0,0,0.19);
+}
+
+
+
+
+
+
+

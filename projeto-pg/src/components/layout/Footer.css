@@ -1,0 +1,19 @@
+.boxFooter h1{
+    background-color: #fff;
+    margin: 2rem 26rem 2rem 26rem;
+    border-radius: 20px;
+}
+
+.boxGit button{
+    background-color: rgba(51, 71, 71, 0);
+    padding: 1rem;
+    margin: 2rem;
+    font-size: 2rem;
+    border: 1px solid rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.boxGit{
+    background-color: rgba(51, 71, 71, 0);
+    color: black;
+}
