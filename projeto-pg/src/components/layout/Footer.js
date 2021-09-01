@@ -2,7 +2,7 @@ import React from 'react';
 import './Footer.css'
 
 
-var nome = 'Direitos reservados Leal Code />'
+var nome = 'Direitos reservados Leal Code /> 👾'
 
 export default function Footer() {
     return(
@@ -10,6 +10,8 @@ export default function Footer() {
             <div className='boxFooter'>
                 <h1>{nome}</h1>
             </div>
-            <a className='boxGit' href='https://github.com/flealbrl' target='_blank'><button>Git Hub 👾</button></a>
+            <a className='boxGit' href="https://github.com/flealbrl" target="_blank"> 
+                <i class="fa fa-github" aria-hidden="true"></i> 
+            </a>
         </>
     )}
