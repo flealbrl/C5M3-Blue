@@ -36,7 +36,7 @@ export default (props) => (
 
         <Card titulo='New York - Estados Unidos'>
             <ComParametro 
-            titulo='Estatua da Liberdade 🗽' 
+            titulo='Estátua da Liberdade 🗽' 
             descricao='A Estátua da Liberdade é um grande monumento localizado nos Estados Unidos. Ela foi declarada pela Unesco como Patrimônio Mundial, em 1984. Uma das mais famosas do mundo, a estátua é um ícone que simboliza a liberdade, a democracia e a esperança do povo estadunidense. Estátua da Liberdade. O monumento representa a deusa romana da liberdade: “Libertas”. Ela sustenta uma tocha na mão direita (que está erguida), e na esquerda ela segura o Declaração da Independência dos Estados Unidos com a data da Independência do país escrita em números romanos: 4 de julho de 1776.' 
             imagem='https://s1.1zoom.me/big0/372/USA_Sky_New_York_City_454322.jpg' 
             loc='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d260.53269359411206!2d-74.03809787384503!3d40.68325684198749!2m3!1f314.43750000000097!2f77.14107390158141!3f0!3m2!1i1024!2i768!4f35!3m3!1m2!1s0x89c25090129c363d%3A0x40c6a5770d25022b!2sStatue%20of%20Liberty%20National%20Monument!5e1!3m2!1sen!2sbr!4v1630370077628!5m2!1sen!2sbr' 
