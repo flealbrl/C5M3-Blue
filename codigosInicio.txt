@@ -1,0 +1,4 @@
+npm init -y
+npm i express
+npm i -D nodemon
+npm i mongoose@5.13.8

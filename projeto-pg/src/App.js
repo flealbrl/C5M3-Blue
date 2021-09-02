@@ -7,12 +7,9 @@ import Card from './components/layout/Card';
 import Footer from './components/layout/Footer';
 import BotaoVisita from './components/layout/BotaoVisita';
 
-
-
 export default (props) => (
     <div clasName="App">
         <Titulo/>
-        
         <Card titulo='Rio de Janeiro - Brasil'>
             <ComParametro 
             titulo='Cristo Redentor 🙌🏻' 
